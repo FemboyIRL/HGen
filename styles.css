@@ -1,0 +1,52 @@
+.gallery {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.imgHeader{
+    background: linear-gradient(135deg, #FF6B6B, #FF8E53, #FFD553);
+    height: 100vh; /* Ajusta la altura según sea necesario */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white; /* Color del texto para que sea visible en el gradiente */
+}
+
+.navHeader {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+    position: sticky;
+    top: 0;
+    background-color: #FF6B6B;
+    z-index: 1000;
+    padding: 1em 1em;
+    width: 100%; /* Ajusta el ancho del nav al 100% */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+}
+
+.navHeader a {
+    padding: .3vh .3vh;
+    background-color: #FF8E53;
+    border: 4px solid black;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.navHeader a:hover {
+    background-color: #Fff; 
+    color: #FFD700;
+}
